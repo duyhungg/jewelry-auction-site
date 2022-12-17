@@ -14,6 +14,8 @@ import AdPage from "@page/AdPage/AdPage";
 import AccountPage from "@page/AccountPage/AccountPage";
 import RegisterPage from "@page/RegisterPage/RegisterPage";
 import CartPage from "@page/CartPage/CartPage";
+import PaymentPage from "@page/PaymentPage/PaymentPage";
+
 export default function App() {
   const queryClient = new QueryClient({
     defaultOptions: {
@@ -38,6 +40,7 @@ export default function App() {
                 <Route path="/ad/:adId" element={<AdPage />} />
 
                 <Route path="/cart" element={<CartPage />} />
+                <Route path="/payment" element={<PaymentPage />} />
               </Routes>
             </AnimatePresence>
           </Router>
