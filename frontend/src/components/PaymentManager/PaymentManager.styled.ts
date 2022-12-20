@@ -24,9 +24,9 @@ export const inputBox = styled.div`
   }
   width: 100%;
   margin-bottom: 20px;
-  padding: 12px;
+  margin-left: 10px;
   border-radius: 3px;
-  display: flex;
+  padding: 4px;
 `;
 export const col = styled.div`
   width: 300px;
@@ -39,7 +39,8 @@ export const row = styled.div`
 export const flex = styled.div``;
 export const name = styled.div``;
 export const inputName = styled.input`
-  width: auto;
+  width: 100%;
+  padding: 5px 0;
 `;
 export const submitbtn = styled.button`
   width: 100px;
